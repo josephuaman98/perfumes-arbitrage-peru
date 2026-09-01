@@ -1,0 +1,6 @@
+imagenes_perfumes/
+__pycache__/
+*.pyc
+*.log
+.git/
+.system_generated/

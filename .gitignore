@@ -1,0 +1,14 @@
+# Python & Virtual Env
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+
+# Vercel
+.vercel/
+
+# Logs & OS
+*.log
+.DS_Store
+Thumbs.db
