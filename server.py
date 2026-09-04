@@ -50,6 +50,14 @@ def read_root():
         return FileResponse(index_file)
     return {"status": "ok", "message": "Perfume Intel & Arbitrage API Active"}
 
+@app.get("/comparador")
+@app.get("/comparador.html")
+def read_comparador():
+    comp_file = os.path.join(os.path.dirname(__file__), "static", "comparador.html")
+    if os.path.exists(comp_file):
+        return FileResponse(comp_file)
+    return {"status": "error", "message": "comparador.html no encontrado"}
+
 @api_router.get("/sync")
 def api_sync(force: bool = False):
     data, matched = get_data(force=force)
