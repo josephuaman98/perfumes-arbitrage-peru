@@ -1,0 +1,16 @@
+{
+  "courier_warehouse": {
+    "recipient_name": "GIC JOSEPH JESUS HUAMAN MEZA",
+    "full_name": "JOSEPH JESUS HUAMAN MEZA",
+    "prefix": "GIC",
+    "address_line_1": "1350 NW 121 ST AVENUE",
+    "address_line_2": "Suite 700",
+    "city": "Miami",
+    "state": "Florida (FL)",
+    "zip_code": "33182-1542",
+    "country": "USA",
+    "phone": "786-345-2727"
+  },
+  "destination": "Lima, Perú",
+  "notes": "Casillero courier en Miami con código GIC para recepción de paquetes a nombre completo de Joseph Jesus Huaman Meza"
+}
